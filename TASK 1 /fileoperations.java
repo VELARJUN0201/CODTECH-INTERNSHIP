@@ -3,7 +3,7 @@ import java.io.*;
 public class FileOperations {
 
     public static void main(String[] args) {
-        String fileName = "sample.txt";
+        String fileName = "TEXT.txt";
 
         // Write to file
         try (FileWriter writer = new FileWriter(fileName)) {
