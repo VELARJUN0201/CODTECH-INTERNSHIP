@@ -12,7 +12,7 @@ public class FileOperations {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+  
         System.out.println("\nReading file:");
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
