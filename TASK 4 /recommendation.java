@@ -16,7 +16,7 @@ public class RecommendationSystem {
     public static void main(String[] args) {
         try {
             DataModel model = new FileDataModel(
-                    new File("data/preferences.csv"));
+                    new File("sample.csv"));
             UserSimilarity similarity =
                     new PearsonCorrelationSimilarity(model);
             UserNeighborhood neighborhood =
